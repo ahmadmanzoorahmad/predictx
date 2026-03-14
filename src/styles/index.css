@@ -1,0 +1,73 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Enhanced Web3 Glow Effects - Reduced Intensity */
+.glow-yellow {
+  box-shadow: 0 0 20px rgba(255, 237, 78, 0.25);
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.25);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px rgba(201, 70, 255, 0.25);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.25);
+}
+
+.glow-pink {
+  box-shadow: 0 0 20px rgba(255, 46, 151, 0.25);
+}
+
+/* Hover glow effects */
+.glow-yellow-hover:hover {
+  box-shadow: 0 0 25px rgba(255, 237, 78, 0.4);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-blue-hover:hover {
+  box-shadow: 0 0 25px rgba(0, 212, 255, 0.4);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-purple-hover:hover {
+  box-shadow: 0 0 25px rgba(201, 70, 255, 0.4);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Pulsing neon animation - subtle */
+@keyframes neon-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+.animate-neon-pulse {
+  animation: neon-pulse 2s ease-in-out infinite;
+}
+
+/* Smooth animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Gradient animation - removed for better readability */
+.animate-gradient {
+  background-size: 100% 100%;
+}

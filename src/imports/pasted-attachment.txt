@@ -1,0 +1,156 @@
+Extend the existing PredictX Web3 sports prediction platform design by adding a **Digital Identity system and Demo Mode onboarding flow**.
+
+PredictX is a skill-based sports prediction platform where users predict outcomes of real-world sports events and earn NFT achievement cards. Users can trade these NFTs in a marketplace.
+
+The platform uses blockchain wallets but also supports a demo mode for new users.
+
+Maintain the same visual style:
+dark Web3 interface with neon accents and modern sports analytics UI.
+
+Add the following features and screens:
+
+---
+
+1. Digital Identity Profile
+
+Create a **PredictX Digital Identity profile** that represents a player's reputation and achievements.
+
+Identity profile elements:
+
+Username
+Avatar
+Wallet address
+Prediction reputation score
+Total predictions
+Prediction accuracy percentage
+Season ranking
+NFT achievements earned
+
+Include a **Reputation Score badge** that reflects the player's skill.
+
+Example:
+PredictX Reputation Score: 820
+
+Add a reputation progress bar.
+
+---
+
+2. On-Chain Identity Badge
+
+Design a **digital identity card NFT** representing the player's prediction reputation.
+
+The identity card includes:
+
+Player name
+Wallet address
+Reputation score
+Total predictions
+Accuracy percentage
+Top achievements
+Season rank
+
+Design it similar to a futuristic player card.
+
+---
+
+3. Identity Dashboard
+
+Add a new dashboard section called:
+
+"My Prediction Identity"
+
+Sections include:
+
+Reputation score
+Skill level indicator
+Prediction history
+Earned NFT cards
+Leaderboard rank
+
+Include charts showing prediction accuracy over time.
+
+---
+
+4. Demo Mode (No Wallet)
+
+Design a **Demo Mode entry option** on the landing page.
+
+Buttons:
+
+Connect Wallet
+Try Demo Mode
+
+Demo mode allows users to explore the platform without connecting a wallet.
+
+Features available in demo mode:
+
+Browse predictions
+Try prediction interface
+View leaderboards
+View NFT cards
+
+Show a banner:
+
+"Demo Mode — Predictions here are not recorded on blockchain."
+
+---
+
+5. Demo Prediction Flow
+
+When users make predictions in demo mode:
+
+Show simulation results instead of blockchain minting.
+
+Example flow:
+
+User predicts event
+Event result shown
+Demo reward notification appears
+
+Example notification:
+
+"Demo Reward: Legendary PredictX Card"
+
+Include call-to-action:
+
+"Connect Wallet to earn real rewards."
+
+---
+
+6. Wallet Upgrade Flow
+
+When a demo user connects a wallet:
+
+Show onboarding screen:
+
+"Activate Your PredictX Identity"
+
+Steps:
+
+Connect wallet
+Create username
+Mint identity badge
+
+---
+
+7. Identity Leaderboard
+
+Add leaderboard filters based on identity reputation.
+
+Filters include:
+
+Highest accuracy
+Top reputation score
+Most legendary NFT cards
+
+---
+
+Design Requirements
+
+Ensure all new identity features integrate naturally with the existing PredictX interface.
+
+Use futuristic profile cards and reputation badges.
+
+Add subtle blockchain elements to identity screens.
+
+Ensure demo mode screens are clearly marked but visually consistent with the platform.
